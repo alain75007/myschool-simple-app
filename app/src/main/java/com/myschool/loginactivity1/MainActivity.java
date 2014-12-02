@@ -1,4 +1,4 @@
-package com.myschool.loginactivity1;
+package com.myschool.loginActivity1;
 
 import android.app.Activity;
 import android.os.Bundle;
