@@ -1,4 +1,4 @@
-package com.myschool.loginActivity1;
+package com.myschool.simpleapp;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

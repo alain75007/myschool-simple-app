@@ -1,9 +1,11 @@
-package com.myschool.loginActivity1;
+package com.myschool.simpleapp;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.myschool.SimpleApp.R;
 
 
 public class MainActivity extends Activity {

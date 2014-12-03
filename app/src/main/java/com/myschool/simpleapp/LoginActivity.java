@@ -1,4 +1,4 @@
-package com.myschool.loginActivity1;
+package com.myschool.simpleapp;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -17,6 +17,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.myschool.SimpleApp.R;
+
 import org.json.JSONObject;
 
 
@@ -27,6 +29,7 @@ public class LoginActivity extends Activity implements OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // TODO if logged then start main activity and finish this one
         setContentView(R.layout.activity_login);
         button = (Button) findViewById(R.id.act_login_button_go);
         button.setOnClickListener(this);

@@ -1,4 +1,4 @@
-package com.myschool.loginActivity1;
+package com.myschool.simpleapp;
 
 import android.content.Context;
 import android.graphics.Bitmap;
